@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "crate",
+]
+
+[profile.release]
+lto = true
+opt-level = "s"

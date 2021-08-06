@@ -1,0 +1,11 @@
+/target
+/crate/pkg
+**/*.rs.bk
+wasm-pack.log
+
+/node_modules
+/dist/*.js
+/dist/*.wasm
+npm-debug.log
+
+.vscode/

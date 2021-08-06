@@ -1,0 +1,24 @@
+{
+  "name": "wasm-sandbox",
+  "version": "1.0.0",
+  "description": "WebAssembly Sandbox",
+  "scripts": {
+    "build": "webpack",
+    "test": "cd crate && wasm-pack test --firefox",
+    "watch": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yubrot/wasm-sandbox.git"
+  },
+  "author": "yubrot",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.5.0",
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
